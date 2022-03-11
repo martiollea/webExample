@@ -1,0 +1,202 @@
+body {
+  margin-top: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.navigationBar {
+  margin: 0;
+  padding: 0.1rem;
+}
+
+header ul.navigationItems {
+  list-style-type: none;
+  background-color: #555;
+  margin: 0;
+}
+header ul.secondTopBar {
+  list-style-type: none;
+  background-color: #cf0a2c;
+  margin: 0;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0.2em;
+}
+
+header ul a,
+p {
+  color: white;
+  font-size: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+header span {
+  display: block;
+}
+
+li.secondItem {
+  margin-inline: 1rem;
+  margin-bottom: 1rem;
+  padding: 1em;
+  border-right: 0.1rem solid #eee;
+}
+.slide {
+  position: relative;
+}
+
+.slideItem {
+  display: none;
+}
+
+.slideItem1 {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-color: transparent;
+  background-position: center top;
+  background-image: url("https://www.uvic.cat/sites/default/files/styles/slide_home/public/slider-web-uvic-v3_0.jpg?itok=w0067R9Y");
+}
+
+.slideText {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.slideImage2 {
+  background-image: url("https://www.uvic.cat/sites/default/files/styles/slide_home/public/slide-ranquing-jove.jpg?itok=lbOT0kK9");
+}
+
+.slideImage3 {
+  background-image: url("https://www.uvic.cat/sites/default/files/styles/slide_home/public/aaa_1.jpg?itok=377_z4Yj");
+}
+
+.slideImage4 {
+  background-image: url("https://www.uvic.cat/sites/default/files/styles/slide_home/public/3800.2400_slide_0.jpg?itok=KYEZ0qLc");
+}
+
+.slideImage5 {
+  background-image: url("https://www.uvic.cat/sites/default/files/styles/slide_home/public/slider-uvic-tornem-a-la-presencialitat-2021_0.jpg?itok=qwPxHujF");
+}
+
+.firstLine {
+  background-color: black;
+  height: 1px;
+  margin: 2rem;
+  margin-top: 105vh;
+}
+
+.line {
+  margin: 2rem;
+  background-color: black;
+  height: 1px;
+}
+
+section h2 {
+  display: inline;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.cuadroDestacamos {
+  display: inline;
+  margin: 2rem;
+  padding: 1rem;
+  max-width: 25%;
+  background-color: #cf0a2c;
+  color: whitesmoke;
+}
+
+.cuadrosNews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 20rem;
+  grid-gap: 1.5rem;
+  padding: 1rem;
+  margin: 0;
+}
+.cuadroNews {
+  display: inline;
+  background-color: #eee;
+}
+
+.cuadroNews a {
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+
+.cuadroNews p.date {
+  font-size: 0.7rem;
+  color: #cf0a2c;
+}
+
+.cuadroNews p.description {
+  font-size: 0.7rem;
+  color: #4b4b4b;
+}
+
+aside {
+  width: 25%;
+  padding: 0.3rem;
+  margin: 0.5rem;
+  float: right;
+}
+
+aside article.dates {
+  background-color: #cf0a2c;
+}
+
+aside article.esdeveniments {
+  display: inline;
+  color: #cf0a2c;
+}
+
+aside .line {
+  background-color: #fff;
+}
+
+.esdeveniments .line {
+  background-color: #cf0a2c;
+}
+
+.titleAside {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  color: #fff;
+}
+
+.dateAside {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.textAside {
+  padding: 0.5rem;
+}
+
+.noticies {
+  color: #cf0a2c;
+}
+
+.noticies .line {
+  background-color: #cf0a2c;
+}
+
+.botton {
+  margin: 3rem;
+  text-align: center;
+}
+
+.botton a {
+  padding: 0.8rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
