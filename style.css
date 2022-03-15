@@ -9,12 +9,18 @@ div.navigationBar {
   padding: 0.1rem;
 }
 
-header ul.navigationItems {
-  list-style-type: none;
-  background-color: #555;
-  margin: 0;
+.navigationItem {
+  margin-bottom: 0.7rem;
 }
-header ul.secondTopBar {
+
+.navigationItems {
+  list-style-type: none;
+  background-color: #4b4b4b;
+  margin-block: 0;
+  padding-inline: 1.5rem;
+}
+
+.secondTopBar {
   list-style-type: none;
   background-color: #cf0a2c;
   margin: 0;
@@ -26,7 +32,7 @@ header ul li {
 }
 
 header ul a,
-p {
+span {
   color: white;
   font-size: 0.75rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -37,12 +43,39 @@ header span {
   display: block;
 }
 
-li.secondItem {
-  margin-inline: 1rem;
-  margin-bottom: 1rem;
-  padding: 1em;
-  border-right: 0.1rem solid #eee;
+.firstItemTopBar {
+  margin-left: 23rem;
 }
+
+.itemTopBar {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.firstItem {
+  margin-bottom: 1rem;
+  margin-left: 18rem;
+  padding: 1rem;
+  border-left: 0.05rem solid #eee;
+  border-right: 0.05rem solid #eee;
+}
+
+.secondItem {
+  margin-bottom: 1rem;
+  align-items: center;
+  padding: 1rem;
+  border-right: 0.05rem solid #eee;
+}
+
+.linkNavigationBar {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.menuText {
+  text-align: center;
+}
+
 .slide {
   position: relative;
 }
