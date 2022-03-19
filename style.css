@@ -1,16 +1,17 @@
 body {
-  margin-top: 0;
+  margin: 0;
+  border: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 div.navigationBar {
   margin: 0;
-  padding: 0.1rem;
+  padding: 0;
 }
 
 .navigationItem {
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.5rem;
 }
 
 .navigationItems {
@@ -22,6 +23,7 @@ div.navigationBar {
 
 .secondTopBar {
   list-style-type: none;
+  display: flex;
   background-color: #cf0a2c;
   margin: 0;
 }
@@ -50,6 +52,12 @@ header span {
 .itemTopBar {
   list-style-type: none;
   display: inline-block;
+  padding: 1rem 0.2rem;
+}
+
+.textTopBar {
+  display: inline;
+  padding: 0.5rem;
 }
 
 .firstItem {
