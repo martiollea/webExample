@@ -23,7 +23,8 @@ div.navigationBar {
 
 .secondTopBar {
   list-style-type: none;
-  display: flex;
+  display: inline-block;
+  width: 100%;
   background: linear-gradient(135deg, #cf0a2b 0%, rgba(0, 0, 0, 0.3) 100%);
   margin: 0;
   opacity: 1;
@@ -63,7 +64,7 @@ header span {
 
 .firstItem {
   margin-bottom: 1rem;
-  margin-left: 18rem;
+  margin-left: 15rem;
   padding: 1rem;
   border-left: 0.05rem solid #eee;
   border-right: 0.05rem solid #eee;
