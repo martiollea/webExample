@@ -208,9 +208,9 @@ section h2 {
 
 aside {
   width: 20%;
-  padding: 0.3rem;
-  margin: 0.2rem;
+  padding: 1rem;
   float: right;
+  color: white;
 }
 
 aside article.dates {
@@ -224,27 +224,44 @@ aside article.esdeveniments {
 
 aside .line {
   background-color: #fff;
+  margin: 0.4rem 0.8rem;
 }
 
 .esdeveniments .line {
   background-color: #cf0a2c;
 }
-
 .titleAside {
-  font-size: 1.3rem;
-  padding: 0.5rem;
+  font-size: 2.2rem;
+  padding-left: 0.8rem;
+  padding-top: 1rem;
   color: #fff;
 }
-
+.titleAside2 {
+  font-size: 2.2rem;
+  padding-left: 0.8rem;
+  padding-top: 2.5rem;
+  color: #fff;
+}
 .dateAside {
-  padding: 0.5rem;
+  padding-top: 1.4rem;
+  padding-left: 0.8rem;
+  margin: 0;
   font-weight: bold;
 }
-
-.textAside {
-  padding: 0.5rem;
+.lineAside {
+  background-color: #fff;
+  height: 1px;
+  margin: 0.5rem 0.8rem;
+  opacity: 0.5;
 }
-
+.textAside {
+  padding: 0 0.8rem;
+  margin: 0;
+}
+.textAsideLast {
+  padding: 0 0.8rem;
+  padding-bottom: 1.5rem;
+}
 .noticies {
   margin-top: 5rem;
   color: #cf0a2c;
