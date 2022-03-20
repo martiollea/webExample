@@ -24,8 +24,6 @@ body {
 
 .secondTopBar {
   list-style-type: none;
-  display: inline-block;
-  width: 100%;
   background: linear-gradient(135deg, #cf0a2b 0%, rgba(0, 0, 0, 0.3) 100%);
   margin: 0;
   opacity: 1;
@@ -182,12 +180,12 @@ section h2 {
   grid-gap: 1.5rem;
   padding: 1rem;
   margin: 0;
+  margin-left: 2rem;
 }
 .cuadroNews {
   display: inline;
   background-color: #eee;
   width: 303px;
-  padding: 0rem 1rem;
 }
 .cuadroNews a {
   font-weight: bold;
@@ -195,20 +193,21 @@ section h2 {
   text-decoration: underline;
   font-size: 1.2rem;
 }
-
-.cuadroNews p.date {
-  font-size: 0.9rem;
+.cuadroNews .date {
+  font-size: 0.7rem;
   color: #cf0a2c;
 }
-
-.cuadroNews p.description {
+.cuadroNews .description {
   font-size: 0.9rem;
   color: #4b4b4b;
 }
-
+.textoNews {
+  padding: 1rem;
+}
 aside {
   width: 20%;
   padding: 1rem;
+  margin-right: 2rem;
   float: right;
   color: white;
 }
@@ -224,7 +223,7 @@ aside article.esdeveniments {
 
 aside .line {
   background-color: #fff;
-  margin: 0.4rem 0.8rem;
+  margin: 0.8rem;
 }
 
 .esdeveniments .line {
@@ -239,7 +238,7 @@ aside .line {
 .titleAside2 {
   font-size: 2.2rem;
   padding-left: 0.8rem;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
   color: #fff;
 }
 .dateAside {
@@ -251,11 +250,11 @@ aside .line {
 .lineAside {
   background-color: #fff;
   height: 1px;
-  margin: 0.5rem 0.8rem;
+  margin: 0.8rem;
   opacity: 0.5;
 }
 .textAside {
-  padding: 0 0.8rem;
+  padding: 0.3rem 0.8rem;
   margin: 0;
 }
 .textAsideLast {
@@ -263,7 +262,7 @@ aside .line {
   padding-bottom: 1.5rem;
 }
 .noticies {
-  margin-top: 5rem;
+  margin-top: 2rem;
   color: #cf0a2c;
 }
 
