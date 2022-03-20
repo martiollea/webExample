@@ -211,23 +211,28 @@ aside {
   float: right;
   color: white;
 }
-
-aside article.dates {
-  background-color: #cf0a2c;
-}
-
-aside article.esdeveniments {
-  display: inline;
-  color: #cf0a2c;
-}
-
-aside .line {
+.dates .line {
   background-color: #fff;
   margin: 0.8rem;
 }
-
+aside article.dates {
+  background-color: #cf0a2c;
+}
+.titleEsdeveniments {
+  display: flex;
+  margin-top: 2rem;
+}
+.esdeveniments {
+  font-size: 1.1rem;
+  margin-top: 2.5rem;
+  color: #cf0a2c;
+}
 .esdeveniments .line {
   background-color: #cf0a2c;
+  margin-left: 1rem;
+  margin-top: 0.6rem;
+  align-items: center;
+  flex: 1;
 }
 .titleAside {
   font-size: 2.2rem;
@@ -261,13 +266,22 @@ aside .line {
   padding: 0 0.8rem;
   padding-bottom: 1.5rem;
 }
+.titleNews {
+  display: flex;
+}
 .noticies {
-  margin-top: 2rem;
+  font-size: 1.1rem;
+  margin-top: 2.5rem;
+  margin-left: 3rem;
   color: #cf0a2c;
 }
-
 .noticies .line {
   background-color: #cf0a2c;
+  margin-right: 2.5rem;
+  margin-left: 1.5rem;
+  margin-top: 0.6rem;
+  align-items: center;
+  flex: 1;
 }
 .contactanos {
   background: url("https://www.uvic.cat/sites/all/themes/uvictheme/images/img-bg-contact-rwd.jpg");
